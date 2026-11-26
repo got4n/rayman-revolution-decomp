@@ -1,0 +1,58 @@
+{
+  "compiler": {
+    "version": "2.9-ee-991111-01",
+    "destination": "tools/toolchain/ee-gcc29",
+    "files": {
+      "bin/ee-dvp-as": "9011fe9218487cb97aa6ffc2b59ce19ae3a5f3ec575bc0f0e30c4cd00f65cdeb",
+      "bin/ee-gcc": "337a737ae82176a881a5df3396d424895aca31d084a6077313b05b2eebb87bff",
+      "ee/bin/as": "b086aa22d765e505d4e5158158dd598db5fc99a81420e5e859827ea93ccfccb0",
+      "lib/gcc-lib/ee/2.9-ee-991111-01/cc1": "b9aef69f93efb949f15ea58189e8eef4a002b9fe4de5d3fcf89c34e1244ec026",
+      "lib/gcc-lib/ee/2.9-ee-991111-01/cc1.991111a": "9c86999a19f906edc86a05ed6c5ae5efcb49977d3deee8ca11a8022571d424a6",
+      "lib/gcc-lib/ee/2.9-ee-991111-01/cc1plus": "da6ef339898e721fa6393f608f7c5de975b9510841d4c2967f318d6108f62512",
+      "lib/gcc-lib/ee/2.9-ee-991111-01/cc1plus.991111a": "4579ea62e129659e2ebaa7e5f0ecbb5570a1a8a50930e6ebe9001161b8f5ab51",
+      "lib/gcc-lib/ee/2.9-ee-991111-01/cpp": "b8aea7e60c9aaedc688e1eb27724ed01a7419cc931a287ba157dfd4b037781fa"
+    },
+    "optional": [
+      "bin/ee-dvp-as"
+    ],
+    "archives": [
+      {
+        "url": "https://github.com/decompme/compilers/releases/download/compilers/ee-gcc2.9-991111-01.tar.xz",
+        "sha256": "ed684fd98f89d36b0121caab311052089103e3b36241fcef4338cc9ea41c75b8",
+        "members": {
+          "lib/gcc-lib/ee/2.9-ee-991111-01/cc1": "lib/gcc-lib/ee/2.9-ee-991111-01/cc1",
+          "lib/gcc-lib/ee/2.9-ee-991111-01/cc1plus": "lib/gcc-lib/ee/2.9-ee-991111-01/cc1plus"
+        }
+      },
+      {
+        "url": "https://github.com/decompme/compilers/releases/download/compilers/ee-gcc2.9-991111a.tar.xz",
+        "sha256": "f07d1f38afa847197fb816237dbce64e79b2d37b738cb93fa4df3ac7aa1d16f3",
+        "members": {
+          "bin/ee-gcc": "bin/ee-gcc",
+          "ee/bin/as": "ee/bin/as",
+          "lib/gcc-lib/ee/2.9-ee-991111-01/cpp": "lib/gcc-lib/ee/2.9-ee-991111-01/cpp",
+          "lib/gcc-lib/ee/2.9-ee-991111-01/cc1.991111a": "lib/gcc-lib/ee/2.9-ee-991111-01/cc1",
+          "lib/gcc-lib/ee/2.9-ee-991111-01/cc1plus.991111a": "lib/gcc-lib/ee/2.9-ee-991111-01/cc1plus"
+        }
+      }
+    ]
+  },
+  "downloads": {
+    "slinky": {
+      "url": "https://github.com/decompals/slinky/releases/download/0.3.0/slinky-cli-x86_64-unknown-linux-gnu.tar.gz",
+      "sha256": "b6e4d89ad50c2da287440ecb210f06a3eeadb959d6b91d9c95cd5d71ae49d52e",
+      "binary_sha256": "830d1ba00bf7e3fab11e8a4170bcb7f3963528744d761db25689e6ef6cc08866",
+      "destination": "tools/slinky/slinky-cli",
+      "tar_member": "slinky-cli",
+      "version": "0.3.0"
+    },
+    "objdiff": {
+      "url": "https://github.com/encounter/objdiff/releases/download/v3.6.1/objdiff-cli-linux-x86_64",
+      "sha256": "72688707d5a7f30daebf5a4f65f74c6dab17ee6e09a230a187e327900345eecf",
+      "binary_sha256": "72688707d5a7f30daebf5a4f65f74c6dab17ee6e09a230a187e327900345eecf",
+      "destination": "tools/objdiff/objdiff-cli",
+      "tar_member": null,
+      "version": "3.6.1"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+#!/bin/sh
+H=$(cd "$(dirname "$0")/.." && pwd)
+I=${REVO_I386_ROOT:-$H/../../.i386-root}
+exec "$I/lib/ld-linux.so.2" --library-path "$I/usr/lib/i386-linux-gnu:$I/lib/i386-linux-gnu:$I/lib:$I/usr/lib" \
+  "$H/iop-gcc2.8.1/lib/gcc-lib/mipsel-scei-elfl/2.8.1/cpp" "$@"

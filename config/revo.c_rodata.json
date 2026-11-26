@@ -1,0 +1,797 @@
+{
+  "schema_version": 1,
+  "ranges": [
+    {
+      "tu": "main/Engine_part2",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00388D80",
+      "size": 28,
+      "compiled_size": 27,
+      "retail_sha256": "bcd5ac657fc93f61e6c0020b847a58aa38fe18e7ac9e75a9fa90b89c9877a4d5"
+    },
+    {
+      "tu": "main/Initeng",
+      "start": "0x00388DA0",
+      "size": 168,
+      "compiled_size": 165,
+      "retail_sha256": "73a85fef468d8da04afae3cb2c97861bb578e7793c6aa2c640bc4c63c8bb8691"
+    },
+    {
+      "tu": "main/Micros",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00388E48",
+      "size": 436,
+      "compiled_size": 435,
+      "retail_sha256": "be6d320a1b4880a009a7178c906737904885256b0a791a446845582e6b702500"
+    },
+    {
+      "tu": "main/Objinit",
+      "start": "0x00389000",
+      "size": 20,
+      "retail_sha256": "1c9db3f4526785c3947afab502dbf31b330e4e01ea0b57eef1165ca8ed3a44fe"
+    },
+    {
+      "tu": "main/TextFrmt",
+      "start": "0x00389020",
+      "size": 528,
+      "retail_sha256": "d7a8a7c91ad2faf8c9f2d8114bbcae77e28ea371f0418b56497b1934dc4f499a"
+    },
+    {
+      "tu": "main/3dData",
+      "start": "0x00389230",
+      "size": 24,
+      "retail_sha256": "94bc244d6af0d51659bfc83e51d11324611ad1da8255253b9c4d87070d1d801e"
+    },
+    {
+      "tu": "main/Brain",
+      "start": "0x00389250",
+      "size": 24,
+      "retail_sha256": "ee493b82b41e61cb4468ebccac8d97b4c7427708fb1828cefab0f029c8e90958"
+    },
+    {
+      "tu": "main/CollSet",
+      "start": "0x00389270",
+      "size": 24,
+      "retail_sha256": "f99bcd7bdeee766203a445ebe92e6f0808a6a70bfcf6d91705b87d9f23193001"
+    },
+    {
+      "tu": "main/StdGame",
+      "start": "0x00389290",
+      "size": 24,
+      "retail_sha256": "1cc710f2fcae11b79dbadaa4301337048fd961c286c1f5c222efe1141fb01091"
+    },
+    {
+      "tu": "main/Light",
+      "start": "0x003892C0",
+      "size": 20,
+      "retail_sha256": "c04afef2ee59f202b7c9f847bf9d7bf5cabf7f76e1cf959c1ca31130c69a5de5"
+    },
+    {
+      "tu": "main/Joystick",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x003894D8",
+      "size": 168,
+      "compiled_size": 166,
+      "retail_sha256": "2e49c44b948cad44c9be931839ef42b000329c78ac1c52e47f8f1f4f24cf0f1a"
+    },
+    {
+      "tu": "main/IPT_Kwan",
+      "start": "0x00389580",
+      "size": 216,
+      "retail_sha256": "3eeb79dfdaa19fc1e0c24f6a99f58569f330d5d4bff0b5eaf37c1c4a20d70f3a"
+    },
+    {
+      "tu": "main/Position_part2",
+      "start": "0x00389660",
+      "size": 928,
+      "retail_sha256": "f3e30c97628841c0f5ab755ea317dbf9b40ea09feb688b3b1fddc3ff8fa1dfd3"
+    },
+    {
+      "tu": "main/Position",
+      "start": "0x00389A00",
+      "size": 288,
+      "retail_sha256": "b36300cfb09dd92f0739290d2c9a33598387c28992a6ac554af7304052c25a39"
+    },
+    {
+      "tu": "main/mcmngr",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00389BC0",
+      "size": 144,
+      "compiled_size": 142,
+      "retail_sha256": "94de0c7d04b25da7fbd9d4c927db34542607b6d862ee93f97c4f192f1d7ccb13"
+    },
+    {
+      "tu": "main/PS2Boot_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00389C50",
+      "size": 84,
+      "compiled_size": 81,
+      "retail_sha256": "01f1c3d84b377200e13f77056ef1c00633747784824c469b69f03ee54982af1a"
+    },
+    {
+      "tu": "main/ShadDraw",
+      "start": "0x00389CB0",
+      "size": 160,
+      "retail_sha256": "7c98918757eb92d6ba0db8906efc6826ad92bee0795538f710e24bb905042ac5"
+    },
+    {
+      "tu": "main/GamSave",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00389D50",
+      "size": 16,
+      "compiled_size": 15,
+      "retail_sha256": "ca828f6ab6fef962b74c5296461bb96d0546a710b097d740cafab9e366805849"
+    },
+    {
+      "tu": "main/fade",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00389D60",
+      "size": 28,
+      "compiled_size": 28,
+      "retail_sha256": "90a08a55f78aef34223005e62179f9fb57c1e7a99200989bbf35beafcf7252ae"
+    },
+    {
+      "tu": "main/rw3_ato_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00389D80",
+      "size": 328,
+      "compiled_size": 328,
+      "retail_sha256": "7207da425c218fb45dad1c69bb93e28e46ae03077c98036adb0e032efa3c3824"
+    },
+    {
+      "tu": "main/rw3_clump_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00389F90",
+      "size": 28,
+      "compiled_size": 28,
+      "retail_sha256": "0af8be81aaffc4bac9957da652896fcbecf50de54915ecf9fb18309f93c33c65"
+    },
+    {
+      "tu": "main/rw3_light_inv",
+      "start": "0x00389FB0",
+      "size": 24,
+      "retail_sha256": "65c0ecc4ef26479f1ad17b33a350496306fd2a3b25a7062be96bd0ce926abce1"
+    },
+    {
+      "tu": "main/rw3_lights_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00389FC8",
+      "size": 128,
+      "compiled_size": 126,
+      "retail_sha256": "a426bd2cfed96e09c8c1d1ea1a5d90eab2874150f369a981f2a680b6d5e5aea4"
+    },
+    {
+      "tu": "main/rw3_object",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A048",
+      "size": 40,
+      "compiled_size": 37,
+      "retail_sha256": "5308fff777f72844a545ff6e5cdda79f1720459f7961cc0bccf03f205a3825cb"
+    },
+    {
+      "tu": "main/rw3_pp_lightmap",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A070",
+      "size": 444,
+      "compiled_size": 444,
+      "retail_sha256": "949d6760def39ed546bdd98da435a05de9fb4f4a05f59f603c96040d54ec0993"
+    },
+    {
+      "tu": "main/rw3_pp_lmpal_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A230",
+      "size": 152,
+      "compiled_size": 152,
+      "retail_sha256": "4c44284aafe5092be58f425644843b2029a5d11266c63a7e038420637ee9c29d"
+    },
+    {
+      "tu": "main/rw3_pp_mat_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A2C8",
+      "size": 112,
+      "compiled_size": 111,
+      "retail_sha256": "860a61b28985ac97a193aebfaa8f5a3f0bfdd14e15d311f053cab71108262e57"
+    },
+    {
+      "tu": "main/rw3_pp_setup",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A338",
+      "size": 104,
+      "compiled_size": 103,
+      "retail_sha256": "100b8e124a9662c0d7dccaa000b1b9833cfe2f990a0fdffab383b171a8171946"
+    },
+    {
+      "tu": "main/rw3_render_inv",
+      "start": "0x0038A3C0",
+      "size": 112,
+      "retail_sha256": "c7163e60e5fb1151eca4455b5f8dbf5e538b5210672c85e959dbb02da7101c81"
+    },
+    {
+      "tu": "main/rw3_rwr_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A430",
+      "size": 80,
+      "compiled_size": 77,
+      "retail_sha256": "0cf4d1475a3d3c1f5b623dbea06e7b373de526e5ba2d9c38038ceaa95121c450"
+    },
+    {
+      "tu": "main/rw3_scam_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A480",
+      "size": 116,
+      "compiled_size": 113,
+      "retail_sha256": "4e3bc0fdd9200238ebb4704ef7d936620099bda0a94272aa995bc61e06d41ca2"
+    },
+    {
+      "tu": "main/rw3_shadow_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A4F8",
+      "size": 48,
+      "compiled_size": 48,
+      "retail_sha256": "425fbf141c9da23c456dd7c0cc9b94db8a897a46847ae03269e44f806da618dd"
+    },
+    {
+      "tu": "main/rw3_vshw_inv",
+      "start": "0x0038A530",
+      "size": 20,
+      "retail_sha256": "5d0b6aa917226a9b365fd7dc72cc54fd074af005564cb59347e4b86fca6e0396"
+    },
+    {
+      "tu": "main/rw3_world_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A548",
+      "size": 76,
+      "compiled_size": 76,
+      "retail_sha256": "677453da3fb7c71286d265c05f80afa54ff14dd2cd4fbdaba7c11cd35f3e61cb"
+    },
+    {
+      "tu": "main/SNALoad_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A598",
+      "size": 308,
+      "compiled_size": 308,
+      "retail_sha256": "13b5634d4387677ce0c0ae80e25064af315d392180b61f6e4b6cdc0b08c0eacc"
+    },
+    {
+      "tu": "main/VID_Drv_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A6D0",
+      "size": 32,
+      "compiled_size": 32,
+      "retail_sha256": "861e7ff13efad0647d668292c9c791f309195bbeb3257327026bd04fc25fdb10"
+    },
+    {
+      "tu": "main/sndtheme",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038A6F0",
+      "size": 44,
+      "compiled_size": 44,
+      "retail_sha256": "e39ff5cdcb67c7e12da4846769cffceaa48ef665083267157c2d61ef8e57cc20"
+    },
+    {
+      "tu": "main/sound3d",
+      "start": "0x0038A720",
+      "size": 324,
+      "compiled_size": 321,
+      "retail_sha256": "b9ee88f0d3616ab0642d52534e9f85c0968d15bcb585228b60371f45dfa3e5a6"
+    },
+    {
+      "tu": "main/sndeeldbin",
+      "start": "0x0038A930",
+      "size": 56,
+      "retail_sha256": "87704950762390ba3f7002ea51c0857fd1d1e5eb7d105c5f6d454f9e2288f4e1"
+    },
+    {
+      "tu": "main/sndplay",
+      "start": "0x0038A970",
+      "size": 332,
+      "retail_sha256": "ce9ea1768c17d8b5621ac4a49f7c82634213124c134785560fa3976795da8e8a"
+    },
+    {
+      "tu": "main/sndxdwav",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038AAC0",
+      "size": 60,
+      "compiled_size": 58,
+      "retail_sha256": "f3553557954cb381bfce0a104bd717bdcd2a68cdd70f1df69dec730c69ad9121"
+    },
+    {
+      "tu": "main/sndeefile",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038AD28",
+      "size": 312,
+      "compiled_size": 312,
+      "retail_sha256": "4227208e801b0b3b8f03049c4dca193cd64a783502876097e1de045bb708d5c1"
+    },
+    {
+      "tu": "main/sndeetrans",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038AE60",
+      "size": 68,
+      "compiled_size": 68,
+      "retail_sha256": "8787f56de2b8aea6a288658d1a657005acd2aaeec6bf31ac93d9155cee667d60"
+    },
+    {
+      "tu": "main/sndeeadpcmdata",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038AEA8",
+      "size": 280,
+      "compiled_size": 279,
+      "retail_sha256": "cc0e4cfc7184f1444d1e44f170ceb88b021a350e14f6cc9e50569db7277a70b8"
+    },
+    {
+      "tu": "main/sndeemem",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038AFC0",
+      "size": 36,
+      "compiled_size": 35,
+      "retail_sha256": "c4602f768d09ffbbccd6f50dbace504f5f7542a90579f362675cff6a5c280ceb"
+    },
+    {
+      "tu": "main/AGO",
+      "start": "0x0038E930",
+      "size": 836,
+      "retail_sha256": "fb177268aa5e60558fcfc69d0cc1ff2ab859747c3326166eb427ce1f29b5b11d"
+    },
+    {
+      "tu": "main/AI_Proto_part2",
+      "start": "0x0038EC80",
+      "size": 192,
+      "retail_sha256": "d6150f41eb5687ec76d04f09b67e181cf9cbf7238bd44244016069e8e01be31b"
+    },
+    {
+      "tu": "main/DsgMem",
+      "start": "0x0038ED40",
+      "size": 128,
+      "retail_sha256": "15afc86e374841bb4b3fae53e2d6321630a1a7ad3add429fe9d5dc3d438dff61"
+    },
+    {
+      "tu": "main/WPgraphe",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x0038EDC0",
+      "size": 64,
+      "compiled_size": 62,
+      "retail_sha256": "39bce7a99650cc2ea621e7a40639dae877df41fa665ca3eed2e7d02902215cb4"
+    },
+    {
+      "tu": "main/CAM_Proc",
+      "start": "0x0038EE00",
+      "size": 168,
+      "retail_sha256": "3760afdc50bddff68f20fa258d7471e18614a0ad31d7763dd37e24e3bc1f8764"
+    },
+    {
+      "tu": "main/Function_part2",
+      "start": "0x0038EEB0",
+      "size": 1532,
+      "retail_sha256": "8ca2f953e193dd626a7adc6ef2feff5039f78c666faa057c1d8c729a78c22931"
+    },
+    {
+      "tu": "main/EvalTree_inv",
+      "start": "0x0038F4B0",
+      "size": 40,
+      "retail_sha256": "fe46b0085783a4ce952313767cdd4ecd4dbb0104b74bc023317a4562fb6543ac"
+    },
+    {
+      "tu": "main/Operator",
+      "start": "0x0038F4E0",
+      "size": 168,
+      "retail_sha256": "4a3ba97e376e792267b090be81aadf14b2bd5db2fe20cf6db086022d9f2b4a90"
+    },
+    {
+      "tu": "main/Procedur",
+      "start": "0x0038F590",
+      "size": 2552,
+      "retail_sha256": "2e11c595d07e02a5b6bb7e40183d90f4569b53df0bde9d653368e42318ea2863"
+    },
+    {
+      "tu": "main/WParc",
+      "start": "0x0038FF90",
+      "size": 24,
+      "retail_sha256": "24b6f8afb114c7e0ffbc99ff3241145a7d48bb5f774d7af54d5e0802263dabd4"
+    },
+    {
+      "tu": "main/CAM_Act",
+      "start": "0x0038FFB0",
+      "size": 32,
+      "retail_sha256": "f9a81bac5af7bcef9785b6818d2c0b4234cc3c609620725dfc8712c441c44428"
+    },
+    {
+      "tu": "main/CAM_Base",
+      "start": "0x0038FFD0",
+      "size": 24,
+      "retail_sha256": "2d512010c53c4a63d138caa9e593d5b2ef838f17e292766cbd598a95dab6ebd2"
+    },
+    {
+      "tu": "main/CAM_Cond",
+      "start": "0x0038FFF0",
+      "size": 84,
+      "retail_sha256": "dbc073dd5a1af81278efc01c033bbc19476cad0b24cb9a979ec612e91b854ce1"
+    },
+    {
+      "tu": "main/CAM_Fnct",
+      "start": "0x00390050",
+      "size": 80,
+      "retail_sha256": "1e6c2ccda8a6ab012c4c6798faf53ea4c9a979c8002ae1855b3fe325fe45c93a"
+    },
+    {
+      "tu": "main/Cond",
+      "start": "0x003900A0",
+      "size": 356,
+      "retail_sha256": "d3561e55de2c7f53400e43b585e28025e639a5ff3f2d2333802b6fc9e7fc9c02"
+    },
+    {
+      "tu": "main/Demos",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00390218",
+      "size": 12,
+      "compiled_size": 10,
+      "retail_sha256": "4985cdbfd8e5bc94085d49733080e4d15730ec00cc2934b986404856e826834f"
+    },
+    {
+      "tu": "main/FMN_SCE_CD",
+      "start": "0x00390500",
+      "size": 940,
+      "compiled_size": 937,
+      "retail_sha256": "38c980e2b8940006231ece5e11a2f02743dfc9cd732343bb6b57892b29ebde72"
+    },
+    {
+      "tu": "main/Collisio",
+      "start": "0x003908B0",
+      "size": 24,
+      "retail_sha256": "5eaeb484213d6b7f1d4bab70cfda23e63c9564a8b21cb2df4faf0ef7b54c3ad9"
+    },
+    {
+      "tu": "main/SNAReloc_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x003908C8",
+      "size": 104,
+      "compiled_size": 104,
+      "retail_sha256": "6a374c4459f2a6771bcb7621e5d9a81eea08c23dbcf7749eae623a6cdb147117"
+    },
+    {
+      "tu": "main/VID_Draw_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00390930",
+      "size": 48,
+      "compiled_size": 45,
+      "retail_sha256": "400be62a0d55f7d9bf3e51deecd0f79b98594aea5091f709dd039fc07a645496"
+    },
+    {
+      "tu": "main/Initeng",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393260",
+      "size": 4,
+      "compiled_size": 3,
+      "retail_sha256": "2bb6136de39a1bfaa15a0ad339674262182be346abf5ae89a0697a3bb882a920"
+    },
+    {
+      "tu": "main/Micros",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393270",
+      "size": 24,
+      "compiled_size": 24,
+      "retail_sha256": "0b270a0ec267d1c7a379ab11c515a809ba32b3ae1f1aaad55b1f312a6fc0aade"
+    },
+    {
+      "tu": "main/TextFrmt",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x003932B8",
+      "size": 4,
+      "compiled_size": 2,
+      "retail_sha256": "4d70f4a881c72812c075e9727da84e0cb9b771859100d10815cc6f9a502818e2"
+    },
+    {
+      "tu": "main/Basic",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393328",
+      "size": 28,
+      "compiled_size": 26,
+      "retail_sha256": "e1bdc8c3f724a5e05750c613cb8f017d6192720865dca1a5add688e7e56f16c5"
+    },
+    {
+      "tu": "main/rw3_api_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393448",
+      "size": 4,
+      "compiled_size": 4,
+      "retail_sha256": "c728235fa76202448d3fc3e9180a0deed24f91a83afe73ddec584ad4453d9615"
+    },
+    {
+      "tu": "main/rw3_file_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393458",
+      "size": 20,
+      "compiled_size": 18,
+      "retail_sha256": "068555bdeb01f5c60d3d987d5dfbb257f0aba948179df4363b515d3981b63780"
+    },
+    {
+      "tu": "main/mcmngr",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x003934F0",
+      "size": 32,
+      "compiled_size": 29,
+      "retail_sha256": "270033acdc06dd9ade9ba9cc03ca2eac6eb629d8fb8ab46b48c523f50bb61789"
+    },
+    {
+      "tu": "main/GamSave",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x003935A0",
+      "size": 16,
+      "compiled_size": 13,
+      "retail_sha256": "b378e44e4ff3be3de53b905f83c55a0637f170c04df4320454d811098165beb4"
+    },
+    {
+      "tu": "main/fade",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393630",
+      "size": 8,
+      "compiled_size": 7,
+      "retail_sha256": "7521c6be4a02a39b88c99376c6f36c38194593ecd2e865d25e495a8db4295474"
+    },
+    {
+      "tu": "main/rw3_ato_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393660",
+      "size": 16,
+      "compiled_size": 16,
+      "retail_sha256": "e4740b67f90ed7b41b2f80e1b3b6af2b58db376864e2641f87e30d6df6d80b76"
+    },
+    {
+      "tu": "main/rw3_lights_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x003936B8",
+      "size": 28,
+      "compiled_size": 28,
+      "retail_sha256": "616298280f52a44863fbc5fb5e5fd15e0223360ad2f4d197ff528b85eeb4dbab"
+    },
+    {
+      "tu": "main/SNALoad_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393788",
+      "size": 48,
+      "compiled_size": 46,
+      "retail_sha256": "0c183953632a5108875e6ab99a039d5a4dff4b5158721abf1ad8d90de6e77067"
+    },
+    {
+      "tu": "main/VID_Drv_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393810",
+      "size": 24,
+      "compiled_size": 23,
+      "retail_sha256": "c65a58d31bc5ab52ab76c63521f2b8e1bfad4b4f35d2abdbbc20854f8730d627"
+    },
+    {
+      "tu": "main/sound3d",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393860",
+      "size": 8,
+      "compiled_size": 8,
+      "retail_sha256": "d0af1b5398ef0380d319243183a71fb0e4e7cd17650f37090ca657088ff9e9de"
+    },
+    {
+      "tu": "main/sndeeldbin",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393880",
+      "size": 28,
+      "compiled_size": 28,
+      "retail_sha256": "7257251f89fafeca938589ce49bd934bde63fd619afe7d85fb56cf20327ec415"
+    },
+    {
+      "tu": "main/sndeewav",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393920",
+      "size": 8,
+      "compiled_size": 5,
+      "retail_sha256": "469e8239b0529718ccddb2a2081dbe1ee9c79fe999e525a12ebb28163f158068"
+    },
+    {
+      "tu": "main/AGO",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393D30",
+      "size": 4,
+      "compiled_size": 4,
+      "retail_sha256": "15a94f0cf348f8671a43dff217a26e50f033d17cbbc5293515b694bf4facc5df"
+    },
+    {
+      "tu": "main/WPgraphe",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393D48",
+      "size": 4,
+      "compiled_size": 2,
+      "retail_sha256": "c31425b44a7ed682a3356bf6820141e1584a15c43b6d6793f552e5d4621586f7"
+    },
+    {
+      "tu": "main/Function_part2",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393D70",
+      "size": 24,
+      "compiled_size": 21,
+      "retail_sha256": "17c9ab3e0256e12b6683b07cc0730c97748a66c17d2a011fd26fa4fdba27b108"
+    },
+    {
+      "tu": "main/EvalTree_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393DA0",
+      "size": 20,
+      "compiled_size": 18,
+      "retail_sha256": "0dd0cf1769a1cdf1378cde4d655bc482d106d373be130e426b4a16d4342279be"
+    },
+    {
+      "tu": "main/Procedur",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393DD8",
+      "size": 4,
+      "compiled_size": 3,
+      "retail_sha256": "876f0615b4ba02af6b66da0bd9dc12d705ee74346063cf6629255ad305b3e445"
+    },
+    {
+      "tu": "main/FMN",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393E98",
+      "size": 8,
+      "compiled_size": 6,
+      "retail_sha256": "eadc0bde6ceac603313325a65fd7b3ba34ec4fa8952c46607c5ad2cc53c7f2fe"
+    },
+    {
+      "tu": "main/FMN_SCE_CD",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393EA8",
+      "size": 4,
+      "compiled_size": 3,
+      "retail_sha256": "ef4ca220102523d3cb7b2092615589a6ba65a12e8e2d5db031475198fc66e795"
+    },
+    {
+      "tu": "main/SNAReloc_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393EB0",
+      "size": 24,
+      "compiled_size": 21,
+      "retail_sha256": "a047543348497fef49cc68505fb98fef4094c57766f176876695ccb3d8cce271"
+    },
+    {
+      "tu": "main/VID_Play_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393ED8",
+      "size": 8,
+      "compiled_size": 8,
+      "retail_sha256": "c973c62f125a403303582dd005e0300bfb00a9a841efce5c6d334e053636ff4e"
+    },
+    {
+      "tu": "main/rw3_atofil_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00389EC8",
+      "size": 200,
+      "compiled_size": 199,
+      "retail_sha256": "af2de1829eb02a544293bb15de59ad5f4fd3ecf0640447aa86524e985d1182ba"
+    },
+    {
+      "tu": "main/GamOpt",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393300",
+      "size": 16,
+      "compiled_size": 14,
+      "retail_sha256": "ef36e49505a4a5ba97fbba93b1d2cc9cc4416ece422dd72c62391d105e99adb1"
+    },
+    {
+      "tu": "main/Demos",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393E68",
+      "size": 4,
+      "compiled_size": 1,
+      "retail_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "tu": "main/PS2Boot_inv",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x00393520",
+      "size": 48,
+      "compiled_size": 46,
+      "retail_sha256": "7ef46cb513af53142100fb6f5c59c6757141d1dab4bb2d78879fb1e6a9b31b7a"
+    },
+    {
+      "tu": "main/sndplay",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x003938B8",
+      "size": 4,
+      "compiled_size": 1,
+      "retail_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "tu": "main/sndseq2",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x003938C0",
+      "size": 4,
+      "compiled_size": 1,
+      "retail_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "tu": "main/sndxd",
+      "section": ".sdata",
+      "kind": "strings",
+      "start": "0x003938F8",
+      "size": 4,
+      "compiled_size": 1,
+      "retail_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+    },
+    {
+      "tu": "main/FMN",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x00390228",
+      "size": 416,
+      "compiled_size": 414,
+      "retail_sha256": "0d689c45aa40e726d1f19b00d30ee3721c666997a2aefc6e12081f36c6c1dd0a"
+    },
+    {
+      "tu": "main/rw3_api_inv",
+      "section": ".rodata",
+      "kind": "strings",
+      "start": "0x003892D8",
+      "size": 512,
+      "compiled_size": 509,
+      "retail_sha256": "46af65e04041361c6baac6f8b2c57cbf823ba49eaef5ff2ca1db3f91fe73d234"
+    }
+  ]
+}

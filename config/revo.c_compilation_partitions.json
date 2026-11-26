@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "boundaries": {
+    "src/tempgrp/GliGlou/Drivers/RW3/Src/rw3_shadow_inv.c": "inv_RW3_fn_vBuildRasterUploadPacket",
+    "src/tempgrp/PS2/VID_Draw_inv.c": "inv_VID_fn_vRestoreDisplay"
+  }
+}

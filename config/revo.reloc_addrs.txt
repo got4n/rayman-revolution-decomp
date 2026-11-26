@@ -1,0 +1,14 @@
+rom:0x18160 reloc:MIPS_HI16 symbol:dword_2582B8
+rom:0x69910 reloc:MIPS_LO16 symbol:gst_Env_2
+
+rom:0x4972C reloc:MIPS_HI16 symbol:D_0026F4A4
+
+rom:0x3384 reloc:MIPS_HI16 symbol:unk_252628
+rom:0x3388 reloc:MIPS_HI16 symbol:unk_393260
+rom:0x338C reloc:MIPS_HI16 symbol:byte_2542A8
+rom:0x34D0 reloc:MIPS_LO16 symbol:byte_2542A8
+rom:0x34F8 reloc:MIPS_LO16 symbol:byte_2542A8
+rom:0x350C reloc:MIPS_LO16 symbol:byte_2542A8
+
+rom:0x1B378 reloc:MIPS_HI16 symbol:unk_330820
+rom:0x1B380 reloc:MIPS_LO16 symbol:unk_330820

@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "ranges": [
+    {
+      "tu": "main/TextFrmt",
+      "start": "0x00392700",
+      "size": 4,
+      "retail_sha256": "0f2f3591427956b004ca17393783192e0f81858c06bb5496aa2cea004f1ee863"
+    },
+    {
+      "tu": "main/cineinfo",
+      "start": "0x00392704",
+      "size": 44,
+      "retail_sha256": "9732cbd804f44b9fc1dbc281ff213642547088c39da8a1d15ccaf0c9db4a5a58"
+    },
+    {
+      "tu": "main/MSlight",
+      "start": "0x00392730",
+      "size": 16,
+      "retail_sha256": "b86a31039f227e829ff19ff43dd7a167384850ab74c1d0d733c2a07a18fecc61"
+    },
+    {
+      "tu": "main/SectInfo",
+      "start": "0x00392748",
+      "size": 4,
+      "retail_sha256": "5d96a77c55b4ac1eea2d77815396c4349292b85e3b07beaca6aff933e7ef8752"
+    },
+    {
+      "tu": "main/a3x_intn",
+      "start": "0x0039274C",
+      "size": 12,
+      "retail_sha256": "84d8bf177fb7eee09bf3deefb4daf60c7da29e1819974ba2a3d49e0a7afb8769"
+    },
+    {
+      "tu": "main/Basic",
+      "start": "0x00392758",
+      "size": 12,
+      "retail_sha256": "a455cc4239f7f5fe57d548e16d8f31bee9942dac8fab3175dc55aa4af7fb2cf0"
+    },
+    {
+      "tu": "main/ToolMatr",
+      "start": "0x00392764",
+      "size": 64,
+      "retail_sha256": "d5c5ed44418caae0cac202bcaf9c058119ffbcf59c528648faeae3639c2565fe"
+    },
+    {
+      "tu": "main/a3x_int",
+      "start": "0x003927A4",
+      "size": 20,
+      "retail_sha256": "9518212f93ff9c58034e85109549f006b12e9df3bf36cf0efbd9cdb553660645"
+    },
+    {
+      "tu": "main/DevVpt",
+      "start": "0x003927B8",
+      "size": 4,
+      "retail_sha256": "ad44f2204d4182342540bc72c1a8e5eb355b3421534ff69662db31ca03f0e727"
+    },
+    {
+      "tu": "main/Camera",
+      "start": "0x003927BC",
+      "size": 12,
+      "retail_sha256": "0343af80be56b519f5839883f7c5cea133456532acf4e3f0300ea46a04cf1b12"
+    },
+    {
+      "tu": "main/Light",
+      "start": "0x003927C8",
+      "size": 4,
+      "retail_sha256": "030a1a64b337c633d995221728d15e8b0d086cc0dcf4557205111b089b04464d"
+    },
+    {
+      "tu": "main/Material",
+      "start": "0x003927CC",
+      "size": 4,
+      "retail_sha256": "030a1a64b337c633d995221728d15e8b0d086cc0dcf4557205111b089b04464d"
+    },
+    {
+      "tu": "main/Object",
+      "start": "0x003927D0",
+      "size": 4,
+      "retail_sha256": "52c37b242f7ae8185a2b223b5b9d0b8772d97180a46b1d6a4d6c8b018c803d64"
+    },
+    {
+      "tu": "main/WatrPlan",
+      "start": "0x003927D4",
+      "size": 28,
+      "retail_sha256": "c0e09e80f9e9f19eff6785a804982ea4a096b24c757cd98b821b30bd10dc5934"
+    },
+    {
+      "tu": "main/rw3_api_inv",
+      "start": "0x003927F0",
+      "size": 24,
+      "retail_sha256": "992ffd2e2e5d55d9d94e04998c9be5159bf883225e377a48ac07482305420809"
+    },
+    {
+      "tu": "main/IPT_Kwan",
+      "start": "0x00392828",
+      "size": 20,
+      "retail_sha256": "ef7ee8140deeae97163f6f3d5378129e68721528618df10255625b9606b4685e"
+    },
+    {
+      "tu": "main/Position_part2",
+      "start": "0x0039283C",
+      "size": 120,
+      "retail_sha256": "df5f79b98e85381ec3c593b6b81e2589ff251ebb4b4d3b802c10312237cb5d1c"
+    },
+    {
+      "tu": "main/MecMatrix_inv",
+      "start": "0x003928B4",
+      "size": 4,
+      "retail_sha256": "0f2f3591427956b004ca17393783192e0f81858c06bb5496aa2cea004f1ee863"
+    },
+    {
+      "tu": "main/DNMCame",
+      "start": "0x003928CC",
+      "size": 108,
+      "retail_sha256": "47e3c7a0b099f4d2ef1e92f96d00bb22f9bca3a7e1ef46f6294aaf5889523d0c"
+    },
+    {
+      "tu": "main/DNMMTH",
+      "start": "0x00392938",
+      "size": 24,
+      "retail_sha256": "133ebe3b9f3a6ea1ff44213f4bebeab489e203d2ff221823be4d9500017b55a6"
+    },
+    {
+      "tu": "main/MECBase",
+      "start": "0x00392950",
+      "size": 24,
+      "retail_sha256": "7bb84eb9f3d858305070ec2c59c5411590f5da26fd1f1923fbabde2603223627"
+    },
+    {
+      "tu": "main/MECBhv",
+      "start": "0x00392968",
+      "size": 204,
+      "retail_sha256": "fe9e82f216492f8402a5ef68da115913400b0aa4e42e002c658717b46b8aed10"
+    },
+    {
+      "tu": "main/MECCol",
+      "start": "0x00392A34",
+      "size": 68,
+      "retail_sha256": "13244b29c4d8efcdb58042afb0be97d7136373a9d936fd0d38ca9889054fe92f"
+    },
+    {
+      "tu": "main/MECOpt",
+      "start": "0x00392A78",
+      "size": 8,
+      "retail_sha256": "4141e63cd18d8d1992a0c74a941c754db9bf6fb09fb39a2a631ed7e70e86417c"
+    },
+    {
+      "tu": "main/MECTools_part2",
+      "start": "0x00392A8C",
+      "size": 52,
+      "retail_sha256": "3eccfede8272594a1e08e49ad2554d9380140acff991a7933fa9eb8077201ba8"
+    },
+    {
+      "tu": "main/RtList_inv",
+      "start": "0x00392AC0",
+      "size": 92,
+      "retail_sha256": "f5da988753f0a23bfca8b44fef411f7b9a5eb9aad4f9c261aa3417fb3bef6466"
+    },
+    {
+      "tu": "main/Inters",
+      "start": "0x00392B3C",
+      "size": 4,
+      "retail_sha256": "e6540c5b3269d9a6e3646dd482c2a7fe6b58e101e80007556892bb770099a68c"
+    },
+    {
+      "tu": "main/ShadDraw",
+      "start": "0x00392B44",
+      "size": 8,
+      "retail_sha256": "40591fedd8c518de94c456f572733df1d4b528415a0e1c1d2175908ef067664d"
+    },
+    {
+      "tu": "main/Sectdraw",
+      "start": "0x00392B4C",
+      "size": 4,
+      "retail_sha256": "0d66bd808e9247acb560fe33efaa62ad6f11ee6f85cc4f61bd17673263de04ee"
+    },
+    {
+      "tu": "main/ShadowQueue_inv",
+      "start": "0x00392B50",
+      "size": 4,
+      "retail_sha256": "52c37b242f7ae8185a2b223b5b9d0b8772d97180a46b1d6a4d6c8b018c803d64"
+    },
+    {
+      "tu": "main/Function",
+      "start": "0x00392B54",
+      "size": 24,
+      "retail_sha256": "af46e210727566be916364a9b730de5b9a3555748f3d7002c3d1642be2dec0a2"
+    },
+    {
+      "tu": "main/rw3_pp_world_inv",
+      "start": "0x00392B74",
+      "size": 4,
+      "retail_sha256": "0d66bd808e9247acb560fe33efaa62ad6f11ee6f85cc4f61bd17673263de04ee"
+    },
+    {
+      "tu": "main/rw3_render_inv",
+      "start": "0x00392B78",
+      "size": 4,
+      "retail_sha256": "6cd00ccbb89fc4145ef09d9250e8fcb9c61e06567d5cd499cb136cc0d35a4441"
+    },
+    {
+      "tu": "main/sndadpcmmngr_inv",
+      "start": "0x00392B7C",
+      "size": 8,
+      "retail_sha256": "13dddde13edb2e57e4d63ccab58e4b24802498d24e4d4f7ba62d880e5254a7dc"
+    },
+    {
+      "tu": "main/AGO",
+      "start": "0x00392C14",
+      "size": 936,
+      "retail_sha256": "1b5948c9d7ffedfa4a6b2745e2803c1bc1d277158ff4e25b143f7d840947679d"
+    },
+    {
+      "tu": "main/CAM_Tool",
+      "start": "0x00392FEC",
+      "size": 48,
+      "retail_sha256": "eb724388ab307941e0a7a2f42f43a64113d213e856b4552c815a6cb2d0562e2f"
+    },
+    {
+      "tu": "main/CAM_Vis",
+      "start": "0x0039301C",
+      "size": 80,
+      "retail_sha256": "fdf3ba9cb6adf9cdc8d71b7142e5ee1a3894d6923c2b4f59cc5d25abbec58f99"
+    },
+    {
+      "tu": "main/Function_part2",
+      "start": "0x0039306C",
+      "size": 100,
+      "retail_sha256": "44d80673fe85266e0554f2844eb3262e51a7843400b8adea55db6ecbb88e680e"
+    },
+    {
+      "tu": "main/Procedur",
+      "start": "0x003930D0",
+      "size": 104,
+      "retail_sha256": "256f55b5738b29d5dae605531ddeebc7a0410a923796e4f235f7693cce0876b6"
+    },
+    {
+      "tu": "main/CAM_Base",
+      "start": "0x00393138",
+      "size": 44,
+      "retail_sha256": "5b6636c049625d423d730efd8ca27544c5c5257a335683d826c1047f0f9fee61"
+    },
+    {
+      "tu": "main/Cond",
+      "start": "0x00393164",
+      "size": 4,
+      "retail_sha256": "e6540c5b3269d9a6e3646dd482c2a7fe6b58e101e80007556892bb770099a68c"
+    },
+    {
+      "tu": "main/CollGOCo",
+      "start": "0x00393168",
+      "size": 12,
+      "retail_sha256": "9a461c376b6cc066f92f5cda47bfa40c62aa635e04614c1b5acd0e7906dcb57b"
+    },
+    {
+      "tu": "main/ColRay_inv",
+      "start": "0x00393178",
+      "size": 4,
+      "retail_sha256": "0835a5c87ba00a93f8d84fb3bdf20866024a13fc710fc1225e3d67073543bba0"
+    },
+    {
+      "start": "0x0039317C",
+      "size": 4,
+      "retail_sha256": "abd148a0e0164d856e46bba274bb26c45c3dec251cbc23422ddf605c0e04bdfb",
+      "tu": "main/Inters_part2"
+    },
+    {
+      "tu": "main/SNAReloc_inv",
+      "start": "0x00393180",
+      "size": 4,
+      "retail_sha256": "52c37b242f7ae8185a2b223b5b9d0b8772d97180a46b1d6a4d6c8b018c803d64"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+spimdisasm==1.42.4
+rabbitizer==1.16.2
+splat64[mips]==0.50.0
+ninja_syntax==1.7.2

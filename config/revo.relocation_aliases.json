@@ -1,0 +1,1562 @@
+{
+  "schema_version": 1,
+  "aliases": {
+    "D_00392898": {
+      "address": "0x00392898"
+    },
+    "D_0039289C": {
+      "address": "0x0039289C"
+    },
+    "D_003928A4": {
+      "address": "0x003928A4"
+    },
+    "D_003928A8": {
+      "address": "0x003928A8"
+    },
+    "D_0012BA48": {
+      "address": "0x0012BA48"
+    },
+    "D_0010A970": {
+      "address": "0x0010A970"
+    },
+    "D_00192390": {
+      "address": "0x00192390"
+    },
+    "D_001656B0": {
+      "address": "0x001656B0"
+    },
+    "PLA_g_ulCurrentPosInSupObjHeap": {
+      "address": "0x00393F04"
+    },
+    "inv_bDetectIsBox": {
+      "address": "0x00393F50"
+    },
+    "inv_bDetectBoundsHit": {
+      "address": "0x00393F51"
+    },
+    "GLI_g_bSaveFog": {
+      "address": "0x00393380"
+    },
+    "inv_GLI_savedFogEnabled": {
+      "address": "0x003940C8"
+    },
+    "GLI_g_stSaveFog": {
+      "address": "0x002588A8"
+    },
+    "GLI_stFogColor": {
+      "address": "0x00258898"
+    },
+    "inv_GLI_fogRecordIndex": {
+      "address": "0x00393364"
+    },
+    "inv_GLI_currentFogRecord": {
+      "address": "0x00393368"
+    },
+    "inv_GLI_fogRecordRing": {
+      "address": "0x002582F8"
+    },
+    "inv_IPT_disabledDeviceMask": {
+      "address": "0x00393484"
+    },
+    "inv_IPT_keyNameTable": {
+      "address": "0x00393488"
+    },
+    "IPT_g_hNextParameter": {
+      "address": "0x00393478"
+    },
+    "inv_IPT_keywordDispatchTable": {
+      "address": "0x00330C10"
+    },
+    "gs_CurrentNumberOfLightInViewport": {
+      "address": "0x00393398"
+    },
+    "gs_aDEF_p_CurrentListOfLight": {
+      "address": "0x0026E238"
+    },
+    "HIE_g_lNbMatrixInStack": {
+      "address": "0x003935C4"
+    },
+    "HIE_g_a_hMatrixStack": {
+      "address": "0x003556C8"
+    },
+    "g_xFixIndex": {
+      "address": "0x003935C0"
+    },
+    "gd_hFixSPO": {
+      "address": "0x003555C8"
+    },
+    "inv_PS2_timer0OverflowCount": {
+      "address": "0x003935F8"
+    },
+    "inv_PS2_lastTimer0Value": {
+      "address": "0x00393608"
+    },
+    "inv_GAM_firstLevelName": {
+      "address": "0x00253884"
+    },
+    "inv_GAM_currentLevelName": {
+      "address": "0x002524B1"
+    },
+    "inv_GAM_nextLevelName": {
+      "address": "0x002524CF"
+    },
+    "inv_TXT_currentLanguageId": {
+      "address": "0x002538A8"
+    },
+    "inv_TXT_resolutionName": {
+      "address": "0x003EBED0"
+    },
+    "inv_SHW_clipLeft": {
+      "address": "0x00393558"
+    },
+    "inv_SHW_clipRight": {
+      "address": "0x0039355C"
+    },
+    "inv_SHW_clipBottom": {
+      "address": "0x00393560"
+    },
+    "inv_SHW_clipTop": {
+      "address": "0x00393564"
+    },
+    "inv_SHW_clipNear": {
+      "address": "0x00393568"
+    },
+    "g_xIndexOfShadow": {
+      "address": "0x00393550"
+    },
+    "inv_SHW_projectionQueue": {
+      "address": "0x00331458"
+    },
+    "inv_MPEG_decoder": {
+      "address": "0x00387170"
+    },
+    "inv_MPEG_decoderWorkBuffer": {
+      "address": "0x003FC340"
+    },
+    "inv_MPEG_pictureBuffer": {
+      "address": "0x003EC340"
+    },
+    "inv_MPEG_bitstreamBuffer": {
+      "address": "0x00393EE8"
+    },
+    "inv_MPEG_bitstreamSize": {
+      "address": "0x00393EEC"
+    },
+    "inv_MPEG_videoRaster": {
+      "address": "0x00393ECC"
+    },
+    "inv_MPEG_semaphoreId": {
+      "address": "0x00393F5C"
+    },
+    "inv_MPEG_threadId": {
+      "address": "0x00393F60"
+    },
+    "inv_MPEG_interruptHandlerId": {
+      "address": "0x00393F64"
+    },
+    "inv_MPEG_threadStack": {
+      "address": "0x003D4080"
+    },
+    "inv_MPEG_gsDoubleBuffer": {
+      "address": "0x00378750"
+    },
+    "inv_FMN_virtualFileTable": {
+      "address": "0x00386F98"
+    },
+    "inv_FMN_virtualPathBuffer": {
+      "address": "0x003EBF10"
+    },
+    "inv_FMN_realPathBuffer": {
+      "address": "0x003EC110"
+    },
+    "inv_FMN_pathCharacterFlags": {
+      "address": "0x00391821"
+    },
+    "inv_SND_moduleObjectSoundType": {
+      "address": "0x0039328C"
+    },
+    "inv_SND_sxdMicroCount": {
+      "address": "0x00393F84"
+    },
+    "inv_SND_memoryPool": {
+      "address": "0x003E1F70"
+    },
+    "inv_SND_optionsManager": {
+      "address": "0x003D8110"
+    },
+    "inv_SND_backManager": {
+      "address": "0x003E1B28"
+    },
+    "inv_SND_bankFilenameBuffer": {
+      "address": "0x003D4060"
+    },
+    "g_hCurrentSuperObjPerso": {
+      "address": "0x00393DD0"
+    },
+    "CAM_g_stCameraConstants": {
+      "address": "0x00254188"
+    },
+    "CAM_g_stCopyCameraConstants": {
+      "address": "0x00254208"
+    },
+    "inv_MEM_defaultHeap": {
+      "address": "0x00393618"
+    },
+    "inv_MEM_allocateCallback": {
+      "address": "0x0039361C"
+    },
+    "inv_MEM_resizeCallback": {
+      "address": "0x00393620"
+    },
+    "inv_MEM_releaseCallback": {
+      "address": "0x00393624"
+    },
+    "inv_MEM_moveCallback": {
+      "address": "0x00393628"
+    },
+    "g_stIndexMicrosList": {
+      "address": "0x00254288"
+    },
+    "inv_SAV_currentPlayerName": {
+      "address": "0x0034A5CB"
+    },
+    "inv_SAV_currentSlotIndex": {
+      "address": "0x0034A5C8"
+    },
+    "inv_SAV_currentSaveComment": {
+      "address": "0x0034A5DC"
+    },
+    "inv_SAV_currentGameDuration": {
+      "address": "0x0034A5C0"
+    },
+    "inv_GLI_lensFlareReference": {
+      "address": "0x003933C4"
+    },
+    "a3_lSinEffectFreqMesh": {
+      "address": "0x0026F490"
+    },
+    "a3_xSinEffectBaseMesh": {
+      "address": "0x0026F480"
+    },
+    "a3_xSinEffectBaseMeshSaved": {
+      "address": "0x0026F4C0"
+    },
+    "a3_lSinEffectFreqMeshSaved": {
+      "address": "0x0026F4D0"
+    },
+    "inv_GLI_savedRenderFlags": {
+      "address": "0x003933CC"
+    },
+    "GLI_gsIsInit": {
+      "address": "0x00393384"
+    },
+    "inv_GLI_secondaryCamera": {
+      "address": "0x00393438"
+    },
+    "inv_SHW_cameras128": {
+      "address": "0x00393754"
+    },
+    "inv_SHW_rasters128": {
+      "address": "0x00393758"
+    },
+    "inv_SHW_cameraCount128": {
+      "address": "0x0039375C"
+    },
+    "inv_SHW_cameraIndex128": {
+      "address": "0x00393760"
+    },
+    "inv_SHW_cameras64": {
+      "address": "0x00393764"
+    },
+    "inv_SHW_rasters64": {
+      "address": "0x00393768"
+    },
+    "inv_SHW_cameraCount64": {
+      "address": "0x0039376C"
+    },
+    "inv_SHW_cameraIndex64": {
+      "address": "0x00393770"
+    },
+    "inv_SHW_queuedFrames": {
+      "address": "0x0036FF70"
+    },
+    "inv_SHW_queuedAtomicCount": {
+      "address": "0x00393774"
+    },
+    "inv_SHW_queuedAtomics": {
+      "address": "0x0036FDE0"
+    },
+    "inv_SHW_materialColor": {
+      "address": "0x00393750"
+    },
+    "inv_GLI_preparedRectangleVertices": {
+      "address": "0x00370250"
+    },
+    "inv_RW3_levelClump": {
+      "address": "0x0039363C"
+    },
+    "inv_GLI_vertex2DCount": {
+      "address": "0x0039340C"
+    },
+    "inv_GLI_primaryCamera": {
+      "address": "0x00393434"
+    },
+    "inv_GLI_vertices2D": {
+      "address": "0x0032FE20"
+    },
+    "inv_GAM_levelNumber": {
+      "address": "0x00253866"
+    },
+    "inv_GAM_formattedLevelName": {
+      "address": "0x00394EA8"
+    },
+    "inv_GAM_previousSector": {
+      "address": "0x00393234"
+    },
+    "inv_SND_lastFreeAdpcmVoiceCount": {
+      "address": "0x0039392C"
+    },
+    "inv_TXT_textTableState": {
+      "address": "0x002542A8"
+    },
+    "D_00393360": {
+      "address": "0x00393360"
+    },
+    "D_00393380": {
+      "address": "0x00393380"
+    },
+    "D_003940C8": {
+      "address": "0x003940C8"
+    },
+    "flt_2588A8": {
+      "address": "0x002588A8"
+    },
+    "qword_258898": {
+      "address": "0x00258898"
+    },
+    "D_00393364": {
+      "address": "0x00393364"
+    },
+    "D_00393368": {
+      "address": "0x00393368"
+    },
+    "unk_2582F8": {
+      "address": "0x002582F8"
+    },
+    "D_00393484": {
+      "address": "0x00393484"
+    },
+    "D_00393488": {
+      "address": "0x00393488"
+    },
+    "dword_330BD0": {
+      "address": "0x00330BD0"
+    },
+    "D_00393474": {
+      "address": "0x00393474"
+    },
+    "D_00393478": {
+      "address": "0x00393478"
+    },
+    "off_330C10": {
+      "address": "0x00330C10"
+    },
+    "byte_26E2B8": {
+      "address": "0x0026E2B8"
+    },
+    "D_00393398": {
+      "address": "0x00393398"
+    },
+    "dword_26E238": {
+      "address": "0x0026E238"
+    },
+    "D_003935C4": {
+      "address": "0x003935C4"
+    },
+    "dword_3556C8": {
+      "address": "0x003556C8"
+    },
+    "D_003935C0": {
+      "address": "0x003935C0"
+    },
+    "dword_3555C8": {
+      "address": "0x003555C8"
+    },
+    "D_003935E8": {
+      "address": "0x003935E8"
+    },
+    "D_003935F8": {
+      "address": "0x003935F8"
+    },
+    "D_00393608": {
+      "address": "0x00393608"
+    },
+    "unk_253884": {
+      "address": "0x00253884"
+    },
+    "unk_2524B1": {
+      "address": "0x002524B1"
+    },
+    "byte_2524CF": {
+      "address": "0x002524CF"
+    },
+    "byte_2538A8": {
+      "address": "0x002538A8"
+    },
+    "unk_3EBED0": {
+      "address": "0x003EBED0"
+    },
+    "D_00393354": {
+      "address": "0x00393354"
+    },
+    "D_0039343C": {
+      "address": "0x0039343C"
+    },
+    "D_00393440": {
+      "address": "0x00393440"
+    },
+    "D_00393444": {
+      "address": "0x00393444"
+    },
+    "D_00393430": {
+      "address": "0x00393430"
+    },
+    "D_00393558": {
+      "address": "0x00393558"
+    },
+    "D_0039355C": {
+      "address": "0x0039355C"
+    },
+    "D_00393560": {
+      "address": "0x00393560"
+    },
+    "D_00393564": {
+      "address": "0x00393564"
+    },
+    "D_00393568": {
+      "address": "0x00393568"
+    },
+    "D_00393550": {
+      "address": "0x00393550"
+    },
+    "unk_331458": {
+      "address": "0x00331458"
+    },
+    "dword_387170": {
+      "address": "0x00387170"
+    },
+    "unk_3FC340": {
+      "address": "0x003FC340"
+    },
+    "unk_3EC340": {
+      "address": "0x003EC340"
+    },
+    "D_00393EE8": {
+      "address": "0x00393EE8"
+    },
+    "D_00393EEC": {
+      "address": "0x00393EEC"
+    },
+    "D_00393ECC": {
+      "address": "0x00393ECC"
+    },
+    "D_00393F5C": {
+      "address": "0x00393F5C"
+    },
+    "D_00393F60": {
+      "address": "0x00393F60"
+    },
+    "D_00393F64": {
+      "address": "0x00393F64"
+    },
+    "unk_3D4080": {
+      "address": "0x003D4080"
+    },
+    "unk_378750": {
+      "address": "0x00378750"
+    },
+    "unk_386F98": {
+      "address": "0x00386F98"
+    },
+    "unk_3EBF10": {
+      "address": "0x003EBF10"
+    },
+    "unk_3EC110": {
+      "address": "0x003EC110"
+    },
+    "byte_391821": {
+      "address": "0x00391821"
+    },
+    "D_00393288": {
+      "address": "0x00393288"
+    },
+    "D_0039328C": {
+      "address": "0x0039328C"
+    },
+    "D_00393298": {
+      "address": "0x00393298"
+    },
+    "D_003932A0": {
+      "address": "0x003932A0"
+    },
+    "D_003932A8": {
+      "address": "0x003932A8"
+    },
+    "D_00393F68": {
+      "address": "0x00393F68"
+    },
+    "D_00393844": {
+      "address": "0x00393844"
+    },
+    "D_0039383C": {
+      "address": "0x0039383C"
+    },
+    "D_00393840": {
+      "address": "0x00393840"
+    },
+    "D_00393850": {
+      "address": "0x00393850"
+    },
+    "D_003938AC": {
+      "address": "0x003938AC"
+    },
+    "D_00393928": {
+      "address": "0x00393928"
+    },
+    "D_00393F84": {
+      "address": "0x00393F84"
+    },
+    "dword_3716A8": {
+      "address": "0x003716A8"
+    },
+    "dword_3E1F70": {
+      "address": "0x003E1F70"
+    },
+    "dword_3D8110": {
+      "address": "0x003D8110"
+    },
+    "unk_3E1B28": {
+      "address": "0x003E1B28"
+    },
+    "dword_3E1B00": {
+      "address": "0x003E1B00"
+    },
+    "D_00393874": {
+      "address": "0x00393874"
+    },
+    "D_00393878": {
+      "address": "0x00393878"
+    },
+    "unk_3D4060": {
+      "address": "0x003D4060"
+    },
+    "D_00393EF4": {
+      "address": "0x00393EF4"
+    },
+    "D_00393DD0": {
+      "address": "0x00393DD0"
+    },
+    "D_00393DCC": {
+      "address": "0x00393DCC"
+    },
+    "unk_383FE0": {
+      "address": "0x00383FE0"
+    },
+    "D_00393DE8": {
+      "address": "0x00393DE8"
+    },
+    "dword_3840A8": {
+      "address": "0x003840A8"
+    },
+    "dword_3840D0": {
+      "address": "0x003840D0"
+    },
+    "dword_384058": {
+      "address": "0x00384058"
+    },
+    "dword_384080": {
+      "address": "0x00384080"
+    },
+    "flt_254188": {
+      "address": "0x00254188"
+    },
+    "unk_254208": {
+      "address": "0x00254208"
+    },
+    "D_00393618": {
+      "address": "0x00393618"
+    },
+    "D_0039361C": {
+      "address": "0x0039361C"
+    },
+    "D_00393620": {
+      "address": "0x00393620"
+    },
+    "D_00393624": {
+      "address": "0x00393624"
+    },
+    "D_00393628": {
+      "address": "0x00393628"
+    },
+    "dword_254288": {
+      "address": "0x00254288"
+    },
+    "D_0034A5CB": {
+      "address": "0x0034A5CB"
+    },
+    "qword_34A5C8": {
+      "address": "0x0034A5C8"
+    },
+    "D_0034A5DC": {
+      "address": "0x0034A5DC"
+    },
+    "qword_34A5C0": {
+      "address": "0x0034A5C0"
+    },
+    "D_003933C4": {
+      "address": "0x003933C4"
+    },
+    "D_003933E1": {
+      "address": "0x003933E1"
+    },
+    "flt_26F490": {
+      "address": "0x0026F490"
+    },
+    "flt_26F510": {
+      "address": "0x0026F510"
+    },
+    "flt_26F500": {
+      "address": "0x0026F500"
+    },
+    "qword_26F4A0": {
+      "address": "0x0026F4A0"
+    },
+    "flt_26F480": {
+      "address": "0x0026F480"
+    },
+    "unk_26F4C0": {
+      "address": "0x0026F4C0"
+    },
+    "unk_26F4D0": {
+      "address": "0x0026F4D0"
+    },
+    "D_003933CC": {
+      "address": "0x003933CC"
+    },
+    "D_00393384": {
+      "address": "0x00393384"
+    },
+    "D_00393438": {
+      "address": "0x00393438"
+    },
+    "D_003936DC": {
+      "address": "0x003936DC"
+    },
+    "D_00393754": {
+      "address": "0x00393754"
+    },
+    "D_00393758": {
+      "address": "0x00393758"
+    },
+    "D_0039375C": {
+      "address": "0x0039375C"
+    },
+    "D_00393760": {
+      "address": "0x00393760"
+    },
+    "D_00393764": {
+      "address": "0x00393764"
+    },
+    "D_00393768": {
+      "address": "0x00393768"
+    },
+    "D_0039376C": {
+      "address": "0x0039376C"
+    },
+    "D_00393770": {
+      "address": "0x00393770"
+    },
+    "unk_36FF70": {
+      "address": "0x0036FF70"
+    },
+    "D_00393774": {
+      "address": "0x00393774"
+    },
+    "dword_36FDE0": {
+      "address": "0x0036FDE0"
+    },
+    "D_00393750": {
+      "address": "0x00393750"
+    },
+    "unk_370100": {
+      "address": "0x00370100"
+    },
+    "flt_370250": {
+      "address": "0x00370250"
+    },
+    "D_0039363C": {
+      "address": "0x0039363C"
+    },
+    "D_0039340C": {
+      "address": "0x0039340C"
+    },
+    "D_00393434": {
+      "address": "0x00393434"
+    },
+    "unk_32FE20": {
+      "address": "0x0032FE20"
+    },
+    "D_00393320": {
+      "address": "0x00393320"
+    },
+    "unk_253866": {
+      "address": "0x00253866"
+    },
+    "unk_394EA8": {
+      "address": "0x00394EA8"
+    },
+    "D_00393358": {
+      "address": "0x00393358"
+    },
+    "D_00393234": {
+      "address": "0x00393234"
+    },
+    "D_00393228": {
+      "address": "0x00393228"
+    },
+    "D_0039392C": {
+      "address": "0x0039392C"
+    },
+    "dword_253940": {
+      "address": "0x00253940"
+    },
+    "D_00393D60": {
+      "address": "0x00393D60"
+    },
+    "D_00393D64": {
+      "address": "0x00393D64"
+    },
+    "D_00393E3C": {
+      "address": "0x00393E3C"
+    },
+    "byte_2542A8": {
+      "address": "0x002542A8"
+    },
+    "D_00392AA4": {
+      "address": "0x00392AA4"
+    },
+    "D_00392AA8": {
+      "address": "0x00392AA8"
+    },
+    "inv_bPickIsBox": {
+      "address": "0x00393F3C"
+    },
+    "inv_bPickBoundsHit": {
+      "address": "0x00393F3D"
+    },
+    "inv_SND_stCmdInterface": {
+      "address": "0x00393900"
+    },
+    "D_00393904": {
+      "address": "0x00393904"
+    },
+    "g_a_pfnDynamicFunction": {
+      "address": "0x00393248"
+    },
+    "gcGlobAleat": {
+      "address": "0x00393250"
+    },
+    "GlobalLoopInit": {
+      "address": "0x003840F8"
+    },
+    "g_a_hPersoInZone": {
+      "address": "0x00384120"
+    },
+    "cRefAxisIsAlreadyComputed": {
+      "address": "0x00393DF9"
+    },
+    "SAI_g_stInternalStructure": {
+      "address": "0x00393588"
+    },
+    "D_00393248": {
+      "address": "0x00393248"
+    },
+    "D_00393250": {
+      "address": "0x00393250"
+    },
+    "dword_3840F8": {
+      "address": "0x003840F8"
+    },
+    "unk_384120": {
+      "address": "0x00384120"
+    },
+    "D_00393DF9": {
+      "address": "0x00393DF9"
+    },
+    "D_00393588": {
+      "address": "0x00393588"
+    },
+    "g_stAlways": {
+      "address": "0x00252490"
+    },
+    "inv_ALW_h_LstAlwaysModel": {
+      "address": "0x00252494"
+    },
+    "dword_252490": {
+      "address": "0x00252490"
+    },
+    "dword_252494": {
+      "address": "0x00252494"
+    },
+    "g_ulNumberOfAgos": {
+      "address": "0x00393CD0"
+    },
+    "g_ffFrameTime": {
+      "address": "0x00393CFC"
+    },
+    "g_ffLastFrameTime": {
+      "address": "0x00393D00"
+    },
+    "g_fTimeDifference": {
+      "address": "0x00393D04"
+    },
+    "AGO_g_OddFrame": {
+      "address": "0x00393CD4"
+    },
+    "LastFrozen": {
+      "address": "0x00393D10"
+    },
+    "g_bInGameMenu": {
+      "address": "0x00393DED"
+    },
+    "g_bUsingMapMondeAGOs": {
+      "address": "0x00393CF0"
+    },
+    "g_NumberOfZeldaAgos": {
+      "address": "0x00393D08"
+    },
+    "g_AGO": {
+      "address": "0x00379950"
+    },
+    "D_00393CD0": {
+      "address": "0x00393CD0"
+    },
+    "D_00393CFC": {
+      "address": "0x00393CFC"
+    },
+    "D_00393D00": {
+      "address": "0x00393D00"
+    },
+    "D_00393D04": {
+      "address": "0x00393D04"
+    },
+    "D_00393CD4": {
+      "address": "0x00393CD4"
+    },
+    "D_00393D10": {
+      "address": "0x00393D10"
+    },
+    "D_00393DED": {
+      "address": "0x00393DED"
+    },
+    "D_00393CF0": {
+      "address": "0x00393CF0"
+    },
+    "D_00393D08": {
+      "address": "0x00393D08"
+    },
+    "dword_379950": {
+      "address": "0x00379950"
+    },
+    "g_stReport": {
+      "address": "0x00331150"
+    },
+    "dword_331150": {
+      "address": "0x00331150"
+    },
+    "gs_bSceMcOpIsSuccessful": {
+      "address": "0x003934E8"
+    },
+    "D_003934E8": {
+      "address": "0x003934E8"
+    },
+    "cCanTestStatic": {
+      "address": "0x00393D5A"
+    },
+    "D_00393D5A": {
+      "address": "0x00393D5A"
+    },
+    "cNoDynChangeTheta": {
+      "address": "0x00393DFA"
+    },
+    "D_00393DFA": {
+      "address": "0x00393DFA"
+    },
+    "HIE_gs_lCurrentFrame": {
+      "address": "0x003935D0"
+    },
+    "D_003935D0": {
+      "address": "0x003935D0"
+    },
+    "OffsetObjectTable": {
+      "address": "0x003932B0"
+    },
+    "D_003932B0": {
+      "address": "0x003932B0"
+    },
+    "g_ucNRule": {
+      "address": "0x00393D44"
+    },
+    "D_00393D44": {
+      "address": "0x00393D44"
+    },
+    "stExtendDatas4Ray": {
+      "address": "0x00384198"
+    },
+    "dword_384198": {
+      "address": "0x00384198"
+    },
+    "gs_fCoefOfMultiplicationForAnimatedTexture": {
+      "address": "0x003933A0"
+    },
+    "D_003933A0": {
+      "address": "0x003933A0"
+    },
+    "g_ucUseDefaultActionReturn": {
+      "address": "0x00393DEF"
+    },
+    "D_00393DEF": {
+      "address": "0x00393DEF"
+    },
+    "g_ucNewActionReturn": {
+      "address": "0x00393DEE"
+    },
+    "D_00393DEE": {
+      "address": "0x00393DEE"
+    },
+    "g_bBeginMapSoundEventFlag": {
+      "address": "0x00393258"
+    },
+    "D_00393258": {
+      "address": "0x00393258"
+    },
+    "GLI_cGlobalFogIsOn": {
+      "address": "0x00393360"
+    },
+    "g_lSoundObjectTypeMusic": {
+      "address": "0x0039329C"
+    },
+    "D_0039329C": {
+      "address": "0x0039329C"
+    },
+    "bSomethingDone": {
+      "address": "0x00393D45"
+    },
+    "D_00393D45": {
+      "address": "0x00393D45"
+    },
+    "TFMT_ga_ulNbScale": {
+      "address": "0x003932B4"
+    },
+    "D_003932B4": {
+      "address": "0x003932B4"
+    },
+    "TFMT_ga_fLetterScale": {
+      "address": "0x002540C0"
+    },
+    "flt_2540C0": {
+      "address": "0x002540C0"
+    },
+    "TFMT_ga_fLetterSpacing": {
+      "address": "0x00253CC0"
+    },
+    "flt_253CC0": {
+      "address": "0x00253CC0"
+    },
+    "ucIsInSchedule": {
+      "address": "0x00393D39"
+    },
+    "D_00393D39": {
+      "address": "0x00393D39"
+    },
+    "g_p_stIntelligence": {
+      "address": "0x00393D40"
+    },
+    "D_00393D40": {
+      "address": "0x00393D40"
+    },
+    "guw_NbVectorArrayCpt": {
+      "address": "0x00393D58"
+    },
+    "D_00393D58": {
+      "address": "0x00393D58"
+    },
+    "IPT_g_ulSequenceAnalyseNumber": {
+      "address": "0x0039347C"
+    },
+    "ga_pstBlockEventSlotMemory": {
+      "address": "0x00253940"
+    },
+    "g_bHighSpeed": {
+      "address": "0x003934A8"
+    },
+    "D_003934A8": {
+      "address": "0x003934A8"
+    },
+    "g_stCollideParameterPoint": {
+      "address": "0x00383B90"
+    },
+    "qword_383B90": {
+      "address": "0x00383B90"
+    },
+    "g_pstGLDDevices": {
+      "address": "0x002582B8"
+    },
+    "dword_2582B8": {
+      "address": "0x002582B8"
+    },
+    "g_xFixIndexSave": {
+      "address": "0x003935C2"
+    },
+    "D_003935C2": {
+      "address": "0x003935C2"
+    },
+    "g_ucContext": {
+      "address": "0x003935CC"
+    },
+    "D_003935CC": {
+      "address": "0x003935CC"
+    },
+    "lZWaterValidity": {
+      "address": "0x003934B8"
+    },
+    "D_003934B8": {
+      "address": "0x003934B8"
+    },
+    "D_0039347C": {
+      "address": "0x0039347C"
+    },
+    "GAM_gs_tdeLoadingMode": {
+      "address": "0x00393320"
+    },
+    "g_ucTableOfActiveLightsForChar": {
+      "address": "0x0026E2B8"
+    },
+    "GLI_gs_lBackGroundColor": {
+      "address": "0x00393358"
+    },
+    "a3_lSinRLIAmp": {
+      "address": "0x0026F510"
+    },
+    "a3_lSinRLIBase": {
+      "address": "0x0026F500"
+    },
+    "gp_SuperObjPersoGenerated": {
+      "address": "0x00253978"
+    },
+    "unk_253978": {
+      "address": "0x00253978"
+    },
+    "g_bFreeTextAfficheBlocs": {
+      "address": "0x00253C48"
+    },
+    "unk_253C48": {
+      "address": "0x00253C48"
+    },
+    "g_cSinusEffectFlag": {
+      "address": "0x003933E2"
+    },
+    "D_003933E2": {
+      "address": "0x003933E2"
+    },
+    "g_stInfoTextAffiche": {
+      "address": "0x002539F0"
+    },
+    "unk_2539F0": {
+      "address": "0x002539F0"
+    },
+    "gp_stDynamicWorld": {
+      "address": "0x00393224"
+    },
+    "D_00393224": {
+      "address": "0x00393224"
+    },
+    "g_hCollisionGeoObj": {
+      "address": "0x00393238"
+    },
+    "D_00393238": {
+      "address": "0x00393238"
+    },
+    "g_hStaticCollisionGeoObj": {
+      "address": "0x0039323C"
+    },
+    "D_0039323C": {
+      "address": "0x0039323C"
+    },
+    "GEO_g_xZFarTransparencyZone": {
+      "address": "0x0039334C"
+    },
+    "D_0039334C": {
+      "address": "0x0039334C"
+    },
+    "GEO_g_xOoZFarTransparencyZone": {
+      "address": "0x00393350"
+    },
+    "D_00393350": {
+      "address": "0x00393350"
+    },
+    "g_p_stCurrentMatrix": {
+      "address": "0x00393390"
+    },
+    "D_00393390": {
+      "address": "0x00393390"
+    },
+    "g_lNbMatrixInStack": {
+      "address": "0x00393394"
+    },
+    "D_00393394": {
+      "address": "0x00393394"
+    },
+    "dword_354480": {
+      "address": "0x00354480"
+    },
+    "g_aDEF_stMatrixStack": {
+      "address": "0x0026C168"
+    },
+    "unk_26C168": {
+      "address": "0x0026C168"
+    },
+    "GEO_g_xZFar": {
+      "address": "0x00393348"
+    },
+    "D_00393348": {
+      "address": "0x00393348"
+    },
+    "bWaterPlaneState": {
+      "address": "0x003933F4"
+    },
+    "D_003933F4": {
+      "address": "0x003933F4"
+    },
+    "GLI_fSinEffectBase": {
+      "address": "0x003933F0"
+    },
+    "D_003933F0": {
+      "address": "0x003933F0"
+    },
+    "gs_xFactor": {
+      "address": "0x00393408"
+    },
+    "D_00393408": {
+      "address": "0x00393408"
+    },
+    "g_cSinusEffectState": {
+      "address": "0x003933E1"
+    },
+    "cJustBetterPos": {
+      "address": "0x00393DF8"
+    },
+    "D_00393DF8": {
+      "address": "0x00393DF8"
+    },
+    "gp_stActualWorld": {
+      "address": "0x00393220"
+    },
+    "D_00393220": {
+      "address": "0x00393220"
+    },
+    "SECT_hFatherSector": {
+      "address": "0x00393228"
+    },
+    "g_lSoundObjectTypeAnim": {
+      "address": "0x00393288"
+    },
+    "g_lSoundObjectTypeVoice": {
+      "address": "0x00393290"
+    },
+    "D_00393290": {
+      "address": "0x00393290"
+    },
+    "g_lSoundObjectTypeMenu": {
+      "address": "0x00393298"
+    },
+    "g_lSoundVolumeLineVoices": {
+      "address": "0x003932A0"
+    },
+    "g_lSoundVolumeLineSound": {
+      "address": "0x003932A4"
+    },
+    "D_003932A4": {
+      "address": "0x003932A4"
+    },
+    "g_lSoundVolumeLineMusic": {
+      "address": "0x003932A8"
+    },
+    "g_stBeginMapSoundEvent": {
+      "address": "0x00393244"
+    },
+    "D_00393244": {
+      "address": "0x00393244"
+    },
+    "g_h_ActualEntryInput": {
+      "address": "0x00393474"
+    },
+    "gs_fCoefOfMultiplicationForScrolledTextures": {
+      "address": "0x0039339C"
+    },
+    "D_0039339C": {
+      "address": "0x0039339C"
+    },
+    "gs_lActualRefreshNumberForScolledTextures": {
+      "address": "0x003933A4"
+    },
+    "D_003933A4": {
+      "address": "0x003933A4"
+    },
+    "g_bHasTextureAnimationFinished": {
+      "address": "0x003933A8"
+    },
+    "D_003933A8": {
+      "address": "0x003933A8"
+    },
+    "g_bTakeCareOfAnimationCoordination": {
+      "address": "0x003933A9"
+    },
+    "D_003933A9": {
+      "address": "0x003933A9"
+    },
+    "g_bOneShotAnim": {
+      "address": "0x003933AA"
+    },
+    "D_003933AA": {
+      "address": "0x003933AA"
+    },
+    "g_AlphabetCharacterPointer": {
+      "address": "0x003933AC"
+    },
+    "D_003933AC": {
+      "address": "0x003933AC"
+    },
+    "g_BaseTimeForParticleAnimation": {
+      "address": "0x003933B0"
+    },
+    "D_003933B0": {
+      "address": "0x003933B0"
+    },
+    "g_AGO_AnimTimeScale": {
+      "address": "0x00393D34"
+    },
+    "D_00393D34": {
+      "address": "0x00393D34"
+    },
+    "fWaterPlaneDistance": {
+      "address": "0x003933F8"
+    },
+    "D_003933F8": {
+      "address": "0x003933F8"
+    },
+    "g_lVIDEO_WantedDepth": {
+      "address": "0x00393444"
+    },
+    "g_bWorkingTheme": {
+      "address": "0x0039382C"
+    },
+    "D_0039382C": {
+      "address": "0x0039382C"
+    },
+    "g_iNbActiveMicros": {
+      "address": "0x0039383C"
+    },
+    "gi_NbObjectType": {
+      "address": "0x00393844"
+    },
+    "HandleCallback": {
+      "address": "0x00393848"
+    },
+    "D_00393848": {
+      "address": "0x00393848"
+    },
+    "g_bInitDoneSound": {
+      "address": "0x0039384C"
+    },
+    "D_0039384C": {
+      "address": "0x0039384C"
+    },
+    "g_bDopplerActive": {
+      "address": "0x00393850"
+    },
+    "g_bUseNearestMicro": {
+      "address": "0x00393859"
+    },
+    "D_00393859": {
+      "address": "0x00393859"
+    },
+    "g_ulNbFadeOutTicks": {
+      "address": "0x00393868"
+    },
+    "D_00393868": {
+      "address": "0x00393868"
+    },
+    "SND_gs_pEventGroupData": {
+      "address": "0x00393874"
+    },
+    "SND_gs_ulEventGroupCount": {
+      "address": "0x00393878"
+    },
+    "gi_SemaSection": {
+      "address": "0x003938AC"
+    },
+    "SND_RES_FANTOME": {
+      "address": "0x003938B0"
+    },
+    "D_003938B0": {
+      "address": "0x003938B0"
+    },
+    "g_lCurrentGlobalPauseInstance": {
+      "address": "0x003938B4"
+    },
+    "D_003938B4": {
+      "address": "0x003938B4"
+    },
+    "g_lSoundSpeed": {
+      "address": "0x003938D8"
+    },
+    "D_003938D8": {
+      "address": "0x003938D8"
+    },
+    "g_rDistSatur": {
+      "address": "0x003938DC"
+    },
+    "D_003938DC": {
+      "address": "0x003938DC"
+    },
+    "g_rDistFade": {
+      "address": "0x003938E0"
+    },
+    "D_003938E0": {
+      "address": "0x003938E0"
+    },
+    "g_rDistBackGround": {
+      "address": "0x003938E4"
+    },
+    "D_003938E4": {
+      "address": "0x003938E4"
+    },
+    "ucVolumeBackGround": {
+      "address": "0x003938E8"
+    },
+    "D_003938E8": {
+      "address": "0x003938E8"
+    },
+    "g_lPushedBufferId": {
+      "address": "0x003938FC"
+    },
+    "D_003938FC": {
+      "address": "0x003938FC"
+    },
+    "C_SAMPLEPARAM_NEUTRE": {
+      "address": "0x00393918"
+    },
+    "D_00393918": {
+      "address": "0x00393918"
+    },
+    "g_bInitOK": {
+      "address": "0x00393928"
+    },
+    "gst_Env": {
+      "address": "0x003716A8"
+    },
+    "a_fnFunc": {
+      "address": "0x00370560"
+    },
+    "off_370560": {
+      "address": "0x00370560"
+    },
+    "g_lCallCounter": {
+      "address": "0x003934A4"
+    },
+    "D_003934A4": {
+      "address": "0x003934A4"
+    },
+    "g_a_stObstacle": {
+      "address": "0x003934B0"
+    },
+    "D_003934B0": {
+      "address": "0x003934B0"
+    },
+    "RW3_g_pWorld": {
+      "address": "0x003936DC"
+    },
+    "IPT_g_fNormCorrectionTable": {
+      "address": "0x00330A80"
+    },
+    "flt_330A80": {
+      "address": "0x00330A80"
+    },
+    "nb_volume_lines": {
+      "address": "0x00393840"
+    },
+    "p_stCamAntiBug": {
+      "address": "0x00393F14"
+    },
+    "D_00393F14": {
+      "address": "0x00393F14"
+    },
+    "g_DoSmallPlouf": {
+      "address": "0x00393CF8"
+    },
+    "D_00393CF8": {
+      "address": "0x00393CF8"
+    },
+    "TEXT_gai_IntParameters": {
+      "address": "0x00384058"
+    },
+    "TEXT_gaf_FloatParameters": {
+      "address": "0x00384080"
+    },
+    "iNumWhile": {
+      "address": "0x00393DCC"
+    },
+    "a_stWhileInfo": {
+      "address": "0x00383FE0"
+    },
+    "g_stCollideParameterVector": {
+      "address": "0x00383BA0"
+    },
+    "qword_383BA0": {
+      "address": "0x00383BA0"
+    },
+    "g_stCollideResultPoint": {
+      "address": "0x00383BB0"
+    },
+    "qword_383BB0": {
+      "address": "0x00383BB0"
+    },
+    "g_stCollideResultVector": {
+      "address": "0x00383BC0"
+    },
+    "qword_383BC0": {
+      "address": "0x00383BC0"
+    },
+    "g_hSuperObjectHit": {
+      "address": "0x00393DB4"
+    },
+    "D_00393DB4": {
+      "address": "0x00393DB4"
+    },
+    "g_ulCollideTimeCounter": {
+      "address": "0x00393D64"
+    },
+    "g_ulMode": {
+      "address": "0x00393D60"
+    },
+    "stSinEffectAmp": {
+      "address": "0x0026F4A0"
+    },
+    "stSinEffectVector": {
+      "address": "0x0026F4B0"
+    },
+    "qword_26F4B0": {
+      "address": "0x0026F4B0"
+    },
+    "stSinEffectAmpSaved": {
+      "address": "0x0026F4E0"
+    },
+    "qword_26F4E0": {
+      "address": "0x0026F4E0"
+    },
+    "stSinEffectVectorSaved": {
+      "address": "0x0026F4F0"
+    },
+    "qword_26F4F0": {
+      "address": "0x0026F4F0"
+    },
+    "xSinusEffectDepthStart": {
+      "address": "0x003933FC"
+    },
+    "D_003933FC": {
+      "address": "0x003933FC"
+    },
+    "xSinusEffectDepthStartSaved": {
+      "address": "0x00393400"
+    },
+    "D_00393400": {
+      "address": "0x00393400"
+    },
+    "g_cSinusEffectStateSaved": {
+      "address": "0x00393404"
+    },
+    "D_00393404": {
+      "address": "0x00393404"
+    },
+    "g_cSinusEffectFlagSaved": {
+      "address": "0x00393405"
+    },
+    "D_00393405": {
+      "address": "0x00393405"
+    },
+    "skyRasterExt": {
+      "address": "0x00393C98"
+    },
+    "D_00393C98": {
+      "address": "0x00393C98"
+    },
+    "g_stDefaultValuesForCharacter": {
+      "address": "0x00253968"
+    },
+    "dword_253968": {
+      "address": "0x00253968"
+    },
+    "gs_stCameraPosInGlobal": {
+      "address": "0x00394F18"
+    },
+    "qword_394F18": {
+      "address": "0x00394F18"
+    },
+    "gs_stGlobalNormPlaneNear": {
+      "address": "0x00394F08"
+    },
+    "flt_394F08": {
+      "address": "0x00394F08"
+    },
+    "stWaterPlaneNormale": {
+      "address": "0x0026F460"
+    },
+    "qword_26F460": {
+      "address": "0x0026F460"
+    },
+    "g_ucIsInMacro": {
+      "address": "0x00393D3A"
+    },
+    "D_00393D3A": {
+      "address": "0x00393D3A"
+    },
+    "g_NbCollidedEdges": {
+      "address": "0x00393E0C"
+    },
+    "D_00393E0C": {
+      "address": "0x00393E0C"
+    },
+    "COL_g_stCollisionCaseReal": {
+      "address": "0x00393E08"
+    },
+    "D_00393E08": {
+      "address": "0x00393E08"
+    },
+    "gast_VectorArrayCpt": {
+      "address": "0x00381758"
+    },
+    "unk_381758": {
+      "address": "0x00381758"
+    },
+    "PLA_g_ulNbAllocInSupObjHeap": {
+      "address": "0x00393F08"
+    },
+    "D_00393F08": {
+      "address": "0x00393F08"
+    },
+    "inv_MEM_fn_lFreeIntView_inv": {
+      "address": "0x0014CC20"
+    }
+  }
+}
